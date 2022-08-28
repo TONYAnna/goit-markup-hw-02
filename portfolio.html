@@ -18,96 +18,108 @@
 
 <body class="page">
     <header class="header">
-        <nav class="main-nav">
-            <a class="logo" href="./index.html">
-                Web<span class="studio">Studio</span>
-            </a>
-
-            <ul class="list">
-                <li class="list-item"><a class="link" href="./index.html">Студія</a></li>
-                <li class="list-item"><a class="link current" href="./portfolio.html">Портфоліо</a></li>
-                <li class="list-item"><a class="link" href="">Контакти</a></li>
+        <div class="container">
+            <nav class="main-nav">
+                <a class="logo" href="./index.html">
+                    Web<span class="studio">Studio</span>
+                </a>
+            
+                <ul class="list header-list">
+                    <li class="list-item"><a class="link nav-link" href="./index.html">Студія</a></li>
+                    <li class="list-item"><a class="link current nav-link" href="./portfolio.html">Портфоліо</a></li>
+                    <li class="list-item"><a class="link nav-link" href="">Контакти</a></li>
+                </ul>
+            </nav>
+            
+            <ul class="list ">
+                <li class="list-item"><a class="link-mail link " href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="list-item"><a class="link-tel link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-
-        <ul class="list">
-            <li class="list-item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="list-item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
+        </div>
     </header>
 
     <main class="main-p">
-        <section class="section-btn">
-            <h2 hidden class="section-title">Розділи</h2>
-            <ul class="btn-list">
-                <li class="btn-item"><button class="btn-p" type="button">Усі</button></li>
-                <li class="btn-item"><button class="btn-p" type="button">Веб-сайти</button></li>
-                <li class="btn-item"><button class="btn-p" type="button">Додатки</button></li>
-                <li class="btn-item"><button class="btn-p" type="button">Дизайн</button></li>
-                <li class="btn-item"><button class="btn-p" type="button">Маркетинг</button></li>
-            </ul>
-        </section>
-        <section class="section-variation">
-            <h2 hidden class="section-title">Приклади</h2>
-            <ul class="variation-list">
-                <li class="variation-item">
-                    <img src="./images/portfolio/img-8.jpg" alt="Технокряк" class="img" width="370" height="294">
-                    <h3 class="list-title-p">Технокряк</h3>
-                    <p class="list-text-p">Веб-сайт</p>
-                </li>
-                <li class="variation-item">
-                    <img src="./images/portfolio/img-9.jpg" alt="Постер New Orlean vs Golden Star" class="img" width="370" height="294">
-                    <h3 class="list-title-p">Постер New Orlean vs Golden Star</h3>
-                    <p class="list-text-p">Дизайн</p>
-                </li>
-                <li class="variation-item">
-                    <img src="./images/portfolio/img-10.jpg" alt="Ресторан Seafood" class="img" width="370" height="294">
-                    <h3 class="list-title-p">Ресторан Seafood</h3>
-                    <p class="list-text-p">Додаток</p>
-                </li>
-                <li class="variation-item">
-                    <img src="./images/portfolio/img-11.jpg" alt="Проєкт Prime" class="img" width="370" height="294">
-                    <h3 class="list-title-p">Проєкт Prime</h3>
-                    <p class="list-text-p">Маркетинг</p>
-                </li>
-                <li class="variation-item">
-                    <img src="./images/portfolio/img-12.jpg" alt="Проєкт Boxes" class="img" width="370" height="294">
-                    <h3 class="list-title-p">Проєкт Boxes</h3>
-                    <p class="list-text-p">Додаток</p>
-                </li>
-                <li class="variation-item">
-                    <img src="./images/portfolio/img-13.jpg" alt="UI Designer" class="img" width="370" height="294">
-                    <h3 class="list-title-p">Inspiration has no Borders</h3>
-                    <p class="list-text-p">Веб-сайт</p>
-                </li>
-                <li class="variation-item">
-                    <img src="./images/portfolio/img-14.jpg" alt="Видання Limited Edition" class="img" width="370" height="294">
-                    <h3 class="list-title-p">Видання Limited Edition</h3>
-                    <p class="list-text-p">Дизайн</p>
-                </li>
-                <li class="variation-item">
-                    <img src="./images/portfolio/img-15.jpg" alt="Проєкт LAB" class="img" width="370" height="294">
-                    <h3 class="list-title-p">Проєкт LAB</h3>
-                    <p class="list-text-p">Маркетинг</p>
-                </li>
-                <li class="variation-item">
-                    <img src="./images/portfolio/img-16.jpg" alt="UI Designer" class="img" width="370" height="294">
-                    <h3 class="list-title-p">Growing Business</h3>
-                    <p class="list-text-p">Додаток</p>
-                </li>
-            </ul>
+        <section class="section">
+            <section class="section-btn">
+                <div class="container">
+                    <h2 hidden class="section-title">Розділи</h2>
+                    <ul class="btn-list list">
+                        <li class="btn-item"><button class="btn-p first-btn" type="button">Усі</button></li>
+                        <li class="btn-item"><button class="btn-p" type="button">Веб-сайти</button></li>
+                        <li class="btn-item"><button class="btn-p" type="button">Додатки</button></li>
+                        <li class="btn-item"><button class="btn-p" type="button">Дизайн</button></li>
+                        <li class="btn-item"><button class="btn-p last-btn" type="button">Маркетинг</button></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section-variation">
+                <div class="container">
+                    <h2 hidden class="section-title">Приклади</h2>
+                    <ul class="variation-list list">
+                        <li class="variation-item">
+                            <img src="./images/portfolio/img-8.jpg" alt="Технокряк" class="img" width="370" height="294">
+                            <h3 class="list-title-p">Технокряк</h3>
+                            <p class="list-text-p">Веб-сайт</p>
+                        </li>
+                        <li class="variation-item">
+                            <img src="./images/portfolio/img-9.jpg" alt="Постер New Orlean vs Golden Star" class="img" width="370"
+                                height="294">
+                            <h3 class="list-title-p">Постер New Orlean vs Golden Star</h3>
+                            <p class="list-text-p">Дизайн</p>
+                        </li>
+                        <li class="variation-item">
+                            <img src="./images/portfolio/img-10.jpg" alt="Ресторан Seafood" class="img" width="370" height="294">
+                            <h3 class="list-title-p">Ресторан Seafood</h3>
+                            <p class="list-text-p">Додаток</p>
+                        </li>
+                        <li class="variation-item">
+                            <img src="./images/portfolio/img-11.jpg" alt="Проєкт Prime" class="img" width="370" height="294">
+                            <h3 class="list-title-p">Проєкт Prime</h3>
+                            <p class="list-text-p">Маркетинг</p>
+                        </li>
+                        <li class="variation-item">
+                            <img src="./images/portfolio/img-12.jpg" alt="Проєкт Boxes" class="img" width="370" height="294">
+                            <h3 class="list-title-p">Проєкт Boxes</h3>
+                            <p class="list-text-p">Додаток</p>
+                        </li>
+                        <li class="variation-item">
+                            <img src="./images/portfolio/img-13.jpg" alt="UI Designer" class="img" width="370" height="294">
+                            <h3 class="list-title-p">Inspiration has no Borders</h3>
+                            <p class="list-text-p">Веб-сайт</p>
+                        </li>
+                        <li class="variation-item">
+                            <img src="./images/portfolio/img-14.jpg" alt="Видання Limited Edition" class="img" width="370"
+                                height="294">
+                            <h3 class="list-title-p">Видання Limited Edition</h3>
+                            <p class="list-text-p">Дизайн</p>
+                        </li>
+                        <li class="variation-item">
+                            <img src="./images/portfolio/img-15.jpg" alt="Проєкт LAB" class="img" width="370" height="294">
+                            <h3 class="list-title-p">Проєкт LAB</h3>
+                            <p class="list-text-p">Маркетинг</p>
+                        </li>
+                        <li class="variation-item">
+                            <img src="./images/portfolio/img-16.jpg" alt="UI Designer" class="img" width="370" height="294">
+                            <h3 class="list-title-p">Growing Business</h3>
+                            <p class="list-text-p">Додаток</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </section>
     </main>
 
     <footer class="footer">
-        <a class="logo" href="./index.html">Web<span class="f-studio">Studio</span></a>
-        <address class="contacts-address">
-            <ul class="list">
-                <li class="list-item"><a class="link address" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li class="list-item"><a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="list-item"><a class="link tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-        </address>
+        <div class="container">
+            <a class="logo" href="./index.html">Web<span class="f-studio">Studio</span></a>
+            <address class="contacts-address">
+                <ul class="list">
+                    <li class="list-item"><a class="link address" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li class="list-item"><a class="link mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="list-item"><a class="link tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 

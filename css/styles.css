@@ -15,12 +15,18 @@
 
 }
 
+html {
+    box-sizing: border-box;
+}
+
 .page {
 color: var(--main-txt-cl);
 font-family: var(--main-font);
 font-size: 14px;
 font-weight: 400;
 }
+
+
 
 .list {
     list-style: none;
@@ -29,6 +35,50 @@ font-weight: 400;
 .link {
     text-decoration: none;
     color: currentColor;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.section{ 
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+/*Header size*/
+.header .container,
+.header .main-nav,
+.header .list {
+    display: flex;
+    align-items: center;
+}
+
+.header .logo{
+    margin-right: 93px;
+}
+
+.header .main-nav {
+    margin-right: auto;
+}
+
+.header .header-list{
+    gap: 50px;
+}
+
+.header .nav-link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header .link-mail {
+    margin-right: 50px;
 }
 
 /* Header*/
@@ -43,6 +93,12 @@ font-weight: 400;
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
 }
+
+.header .link-mail,
+.header .link-tel {
+    color: var(--txt-cl);
+}
+
 
 .header .current {
     color: var(--accent-txt-cl)
@@ -66,6 +122,57 @@ font-weight: 400;
 .studio {
     color: #000000;
 }
+
+/*Main Size*/
+
+.main .hero-title {
+    width: 696px;
+    height: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main .list,
+.main-p .btn-list{
+    display: flex;
+}
+
+.main .main-btn {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.features-list, 
+.team-list,
+.work-process-list  {
+    gap: 30px;
+}
+
+.main .work-process-list {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-p .btn-list {
+    gap: 8px;
+}
+
+.item-title {
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.team-img {
+    margin-bottom: 30px;
+}
+
+.team .list-title {
+    margin-bottom: 10px;
+}
+
 
 /*Main Studio*/
 
@@ -141,6 +248,33 @@ font-weight: 400;
     color: var(--txt-cl)
 }
 
+.main .team {
+    background-color:#F5F4FA;;
+}
+
+.main .team-item {
+    background-color: var(--light-txt-cl)
+}
+
+/*Main Portfolio Size*/
+
+.btn-p {
+    gap: 8px;
+}
+
+.first-btn {
+    margin-left: 512px;
+}
+
+.variation-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-inline-start: 0px;
+}
+
+
+
 /*Main Portfolio*/
 
 .btn-p {
@@ -152,6 +286,9 @@ font-weight: 400;
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
     cursor: pointer;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
 }
 .btn-p:hover,
 .btn-p:focus {
