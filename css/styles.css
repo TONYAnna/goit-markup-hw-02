@@ -302,7 +302,7 @@ ul {
     padding-bottom: 200px;
 }
 
-/*Main Portfolio Size*/
+/*Main Portfolio*/
 
 .btn-list {
     justify-content: center;
@@ -327,10 +327,6 @@ ul {
     border: 1px solid #EEEEEE;
     padding: 20px 24px;
 }
-
-
-
-/*Main Portfolio*/
 
 .btn-p {
     font-family: inherit;
